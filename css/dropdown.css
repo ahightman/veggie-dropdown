@@ -15,7 +15,7 @@ a {
 .menu-container {
   position: relative;
   margin: auto;
-  max-width: 500px;
+  max-width: 1000px;
   padding: 2%;
   top: 6em;
   left: 10em;
@@ -24,7 +24,7 @@ a {
 button {
   font-family: inherit;
   font-size: 1.3em;
-  width: 500px;
+  width: 60%;
   padding: .5em;
   padding-right: 1.4em;
 
@@ -40,7 +40,7 @@ button {
 
   visibility: hidden;
   opacity: 0;
-  width: 500px;
+  width: 60%;
 
   transition: all 0.20s;
 }
