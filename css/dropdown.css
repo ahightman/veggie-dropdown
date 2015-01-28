@@ -24,7 +24,7 @@ a {
 button {
   font-family: inherit;
   font-size: 1.3em;
-  width: 60%;
+  width: 300px;
   padding: .5em;
   padding-right: 1.4em;
 
@@ -40,7 +40,7 @@ button {
 
   visibility: hidden;
   opacity: 0;
-  width: 55.2%;
+  width: 300px;
 
   transition: all 0.20s;
 }
