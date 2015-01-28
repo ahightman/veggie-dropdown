@@ -1,0 +1,88 @@
+html {
+  background: url("http://blog.runningwarehouse.com/wp-content/uploads/2015/01/fresh-vegetables-on-the-wooden-table-wallpaper-5000x3745.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: .15em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-container {
+  position: relative;
+  margin: auto;
+  max-width: 500px;
+  padding: 2%;
+  top: 6em;
+  left: 10em;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.3em;
+  width: 60%;
+  padding: .5em;
+  padding-right: 1.4em;
+
+  background-color: white;
+  color: #2ac043;
+  border: none;
+  outline: none;
+}
+
+.sub-menu {
+  position: absolute;
+  /*bottom: 0;*/
+
+  visibility: hidden;
+  opacity: 0;
+  width: 55.2%;
+
+  transition: all 0.20s;
+}
+
+.button, .sub-menu {
+  box-shadow:
+	8px 10px 10px rgba(0,0,0,0.5),
+	inset 0px 0px 5px rgba(255,255,255,0.75);
+}
+
+.menu-show .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-item {
+  padding: .5em;
+  padding-left: 1em;
+  margin-top: .2em;
+  background-color: white;
+  color: #2ac043;
+}
+
+.veggie-type {
+  padding-left: 2em;
+}
+
+.icon {
+  font-family: veggies;
+  font-size: 1.2em;
+  position: absolute;
+}
+
+.drop-arrow {
+  font-size: .8em;
+  padding-left: .5em;
+  padding-top: .35em;
+}
+
+.menu-item:hover, .button:hover {
+
+  background-color: #2ac043;
+  color: white;
+  cursor: pointer;
+}
